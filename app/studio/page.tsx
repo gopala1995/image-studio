@@ -28,7 +28,7 @@ const { userId, has } = await auth();
             <span className="relative mr-2 flex h-10 w-10 shrink-0 items-center justify-center overflow-visible">
               <Image
                 src="/logo.png"
-                alt="Luma Studio"
+                alt="photo Studio"
                 width={72}
                 height={72}
                 className="mt-2 mr-2 max-h-none max-w-none origin-left scale-[1.55] object-cover"
@@ -37,7 +37,7 @@ const { userId, has } = await auth();
             </span>
 
             <p className="text-3xl font-mono text-primary uppercase font-semibold tracking-wide sm:text-[2.15rem]">
-              Luma Studio
+              Photo Studio
             </p>
           </Link>
 

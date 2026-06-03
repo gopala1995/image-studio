@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import {
   type PropsWithChildren,
@@ -73,9 +73,7 @@ export function StudioWorkbenchProvider({
 
   const value = useStudioWorkbenchValue({ clerkUserId, initialHistory, initialQuota });
 
-  return (
-    <StudioWorkbenchContext.Provider value={value} > {children} </StudioWorkbenchContext.Provider>
-  );
+  return (<StudioWorkbenchContext.Provider value={value} > {children} </StudioWorkbenchContext.Provider> );
 }
 
 export function useStudioWorkbench() {

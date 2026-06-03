@@ -28,7 +28,7 @@ import { CENTER_NAV_LINKS, HERO_VIDEO_SRC } from "../../lib/constans";
             <span className="relative mr-2 flex h-10 w-10 shrink-0 items-center justify-center overflow-visible">
               <Image
                 src="/logo.png"
-                alt="Image Studio"
+                alt="Photo Studio"
                 width={72}
                 height={72}
                 className="h-10 w-10 max-h-none max-w-none origin-left scale-[1.55] object-cover"
@@ -37,7 +37,7 @@ import { CENTER_NAV_LINKS, HERO_VIDEO_SRC } from "../../lib/constans";
             </span>
             <div className="min-w-0">
               <span className="caps-2xs block text-sm font-semibold text-foreground">
-                Image Studio
+                Photo Studio
               </span>
               <span className="caps-xs block truncate text-xs uppercase text-muted-foreground">
                 AI image restyling
@@ -124,7 +124,7 @@ import { CENTER_NAV_LINKS, HERO_VIDEO_SRC } from "../../lib/constans";
               <div className="hero-demo-glass-inner home-demo-inner">
                 <Image
                   src="/demo.png"
-                  alt="Image Studio workspace showing upload, curated styles, and a before-and-after preview"
+                  alt="Photo Studio workspace showing upload, curated styles, and a before-and-after preview"
                   width={3290}
                   height={1872}
                   className="h-auto w-full"
