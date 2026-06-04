@@ -3,7 +3,7 @@ import { drizzle } from "drizzle-orm/neon-http";
 
 import * as schema from "@/db/Schema";
 
-const databaseUrl = process.env.DATABASE_URL;
+const databaseUrl = process.env.DATABASE_URL
 
 if (!databaseUrl) {
   throw new Error("Missing DATABASE_URL.");
