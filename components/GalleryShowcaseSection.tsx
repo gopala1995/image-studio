@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { GALLERY_IMAGES, GALLERY_STATS, HIGHLIGHTS, SHOWCASE_BG_VIDEO_SRC } from "../../lib/constans";
+import { GALLERY_IMAGES, GALLERY_STATS, HIGHLIGHTS, SHOWCASE_BG_VIDEO_SRC } from "../lib/constans";
 
 
 const GalleryShowcaseSection = () => {

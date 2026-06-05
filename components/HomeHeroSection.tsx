@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-import { CENTER_NAV_LINKS, HERO_VIDEO_SRC } from "../../lib/constans";
+import { CENTER_NAV_LINKS, HERO_VIDEO_SRC } from "../lib/constans";
 
  const HomeHeroSection = () => {
   return (

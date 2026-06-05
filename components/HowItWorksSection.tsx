@@ -1,7 +1,7 @@
 import { ImagePlusIcon, PaletteIcon, SparklesIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import  GridBackground  from "@/components/ui/GridBackground";
+import  GridBackground  from "@/components/GridBackground";
 import { HOW_IT_WORKS_STEPS, WORKFLOW_STYLE_PREVIEW } from "@/lib/constans";
 import { cn } from "@/lib/utils";
 

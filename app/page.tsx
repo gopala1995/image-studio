@@ -1,9 +1,9 @@
 import Footer from "@/components/ui/Footer";
-import GalleryShowcaseSection from "@/components/ui/GalleryShowcaseSection";
-import HomeHeroSection from "@/components/ui/HomeHeroSection";
-import HowItWorksSection from "@/components/ui/HowItWorksSection";
-import PricingSection from "@/components/ui/PricingSection";
-import Testimonials from "@/components/ui/Testimonials";
+import GalleryShowcaseSection from "@/components/GalleryShowcaseSection";
+import HomeHeroSection from "@/components/HomeHeroSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
+import PricingSection from "@/components/PricingSection";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (

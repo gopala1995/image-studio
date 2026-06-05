@@ -3,7 +3,7 @@ import { CheckIcon, DownloadIcon, Loader2Icon, WandSparklesIcon } from "lucide-r
 import type { ReactNode } from "react";
 
 import { Button } from "@/components/ui/button";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Skeleton } from "@/components/skeleton";
 import { cn, downloadImageFromUrl } from "@/lib/utils";
 import { GenerationHistorySummaryItem } from "@/lib/types";
 

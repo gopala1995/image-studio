@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import  TestimonialsColumn  from "@/components/ui/TestimonialsColumn";
+import  TestimonialsColumn  from "@/components/TestimonialsColumn";
 
 import { TESTIMONIAL_COLUMNS } from "@/lib/constans";
 
